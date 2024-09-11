@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Chronoraires</title>
   </head>
   <body>
-    <div>&#128035;</div>
+    <div class="container">
+      <div class="timer-box">
+        <input type="text" placeholder="Nom du Client" />
+        <div class="timer">00:00:00</div>
+        <div class="buttons">
+          <button class="button stop">Stop</button>
+          <button class="button start">Start</button>
+          <button class="button validate">Valider</button>
+        </div>
+      </div>
+
+      <div class="timer-box">
+        <input type="text" placeholder="Nom du Client" />
+        <div class="timer">00:00:00</div>
+        <div class="buttons">
+          <button class="button stop">Stop</button>
+          <button class="button start">Start</button>
+          <button class="button validate">Valider</button>
+        </div>
+      </div>
+
+      <div class="timer-box">
+        <input type="text" placeholder="Nom du Client" />
+        <div class="timer">00:00:00</div>
+        <div class="buttons">
+          <button class="button stop">Stop</button>
+          <button class="button start">Start</button>
+          <button class="button validate">Valider</button>
+        </div>
+      </div>
+
+      <div class="timer-box">
+        <input type="text" placeholder="Nom du Client" />
+        <div class="timer">00:00:00</div>
+        <div class="buttons">
+          <button class="button stop">Stop</button>
+          <button class="button start">Start</button>
+          <button class="button validate">Valider</button>
+        </div>
+      </div>
+    </div>
+    <table id="resultsTable-jxhamczoc2">
+      <thread>
+        <tr>
+          <th>Nom du client ou activité</th>
+          <th>Temps passé (minutes)</th>
+        </tr>
+      </thread>
+      <tbody>
+        <!-- Affichage des résultats-->
+      </tbody>
+    </table>
+
+    <div class="actions">
+      <button class="action-button" id="printTable-jxhamcztno">
+        Imprimer le tableau
+      </button>
+      <button class="action-button" id="resetTable-jxhamczuz1">
+        Réinitialiser le tableau
+      </button>
+      <button class="action-button" id="downloadTable-jxhamczw78">
+        Télécharger le tableau
+      </button>
+    </div>
+
+    <!-- Modal Template -->
+    <div class="modal" id="modal-jxhamd00oi">
+      <div class="modal-content" id="modal-content-jxhamd02lw">
+        <p id="modal-message-jxhamd042q"></p>
+        <button
+          class="modal-button modal-confirm"
+          id="modal-confirm-jxhamd08jx"
+        >
+          OK
+        </button>
+      </div>
+    </div>
+    <div class="modal" id="confirm-modal-jxhamd0apl">
+      <div class="modal-content">
+        <p id="confirm-message-jxhamd0c0t"></p>
+        <button class="modal-button modal-confirm" id="confirm-ok-jxhamd0g1b">
+          Oui
+        </button>
+        <button
+          class="modal-button modal-cancel"
+          id="confirm-cancel-jxhamd0h49"
+        >
+          Non
+        </button>
+      </div>
+    </div>
+    <!-- Modal Template -->
+    <script></script>
   </body>
 </html>
